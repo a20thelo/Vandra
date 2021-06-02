@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-150dp"
+        android:background="@color/teal_200"
+        android:fontFamily="sans-serif-light"
+        android:text="Boenden"
+        android:textColor="@color/black"
+        android:textColorLink="@color/teal_200"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Välj plats nedanför">
+    </TextView>
+
+    <Spinner
+        android:id="@+id/planets_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CalendarView
+        android:id="@+id/calendarView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Se tillgänglighet"
+        app:backgroundTint="@color/teal_700" />
+</LinearLayout>

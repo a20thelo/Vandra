@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="400dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="60dp"
+        tools:srcCompat="@color/purple_200" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="249dp"
+        android:layout_height="42dp"
+        android:layout_alignEnd="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="472dp"
+        android:background="#FFFAE3"
+        android:fontFamily="sans-serif-thin"
+        android:text="Kort text som ligger ovanpå bild och beskriver appen Vandra"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="-5dp"
+        android:background="@color/teal_200"
+        android:fontFamily="sans-serif-light"
+        android:text="Välkommen till Vandra"
+        android:textSize="30dp">
+
+    </TextView>
+
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="660dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dp"
+            android:text="Utrustning"
+            app:backgroundTint="@color/teal_700" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dp"
+            android:text="Kläder"
+            app:backgroundTint="@color/teal_700" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boende"
+            app:backgroundTint="@color/teal_700" />
+
+    </TableRow>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/teal_200"
+        android:fontFamily="sans-serif-light"
+        android:text="Fakta om våra vandringsleder"
+        android:textColor="@color/black"
+        android:textColorLink="@color/teal_200"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <SearchView
+        android:layout_width="89dp"
+        android:layout_height="21dp"
+        android:layout_marginLeft="150dp"/>
+
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Jag är Ny"
+        app:backgroundTint="@color/teal_700" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Jag är Rutinerad"
+        app:backgroundTint="@color/teal_700" />
+
+
+
+    <ListView
+        android:id="@+id/vandringsleder_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="@color/purple_200" />
+
+
+
+</LinearLayout>
